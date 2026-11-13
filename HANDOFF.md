@@ -5,13 +5,18 @@ Estado: v1 estática pronta (index.html + src/styles.css + src/app.js + assets/)
 ## Objetivo
 Converter visitante em cadastro do teste de 7 dias (sem cartão; depois R$ 19,90/mês). CTA "Começar grátis" -> `/login?cadastro=1` do app.
 
+## Feito na v1.1
+- Seção "Em breve" (WhatsApp, Open Finance) antes do FAQ.
+- Meta tags OG/Twitter, favicon PNG, apple-touch-icon e `assets/og.png` (1200x630).
+- Ajustes: bloco "1 plano" maior no desktop; plano "Teste" mais compacto no mobile.
+
 ## Pendências
 - Definir domínio do app e preencher `APP_URL` em src/app.js.
-- Criar/ligar páginas reais de `/termos` e `/politica-de-ia` (docs no Project: termos-de-uso, politica-de-uso-ia).
+- Com o domínio do site: adicionar canonical, og:url e trocar `og:image` por URL absoluta (há um TODO no `<head>`).
+- Criar/ligar páginas reais de `/termos` e `/politica-de-ia` (docs no Project: termos-de-uso, politica-de-uso-ia). Não criei: o texto jurídico precisa vir dos docs.
 - Revisar copy do FAQ e valores de exemplo dos mockups; confirmar rendimento 0,8% a.m. da calculadora.
-- Rodar inspect.mjs da skill design-taste-frontend; ajustar stats (bloco "1 plano" pequeno no desktop) e vazio do plano "Teste" no mobile.
-- Meta tags: og:image, canonical, favicon PNG; SEO básico; hospedagem (estática, qualquer uma).
-- Seção "em breve" (WhatsApp, Open Finance) hoje só no FAQ.
+- Rodar inspect.mjs da skill design-taste-frontend (não rodei).
+- Hospedagem (estática, qualquer uma).
 
 ## Referências
 Marca: lime #c6fb3d sobre #0a0d12, Plus Jakarta Sans. Motivo: três colunas + ponto. Roadmap e docs no Project "Ineli".
