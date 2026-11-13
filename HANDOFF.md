@@ -10,9 +10,10 @@ Converter visitante em cadastro do teste de 7 dias (sem cartão; depois R$ 19,90
 - Meta tags OG/Twitter, favicon PNG, apple-touch-icon e `assets/og.png` (1200x630).
 - Ajustes: bloco "1 plano" maior no desktop; plano "Teste" mais compacto no mobile.
 
+Domínio do site: https://ineli.com.br (canonical/og configurados).
+
 ## Pendências
 - Definir domínio do app e preencher `APP_URL` em src/app.js.
-- Com o domínio do site: adicionar canonical, og:url e trocar `og:image` por URL absoluta (há um TODO no `<head>`).
 - Criar/ligar páginas reais de `/termos` e `/politica-de-ia` (docs no Project: termos-de-uso, politica-de-uso-ia). Não criei: o texto jurídico precisa vir dos docs.
 - Revisar copy do FAQ e valores de exemplo dos mockups; confirmar rendimento 0,8% a.m. da calculadora.
 - Rodar inspect.mjs da skill design-taste-frontend (não rodei).
