@@ -279,3 +279,16 @@ footer{background:var(--deep);padding:clamp(48px,7vw,96px) 0 28px}
   *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
   .reveal{opacity:1;transform:none}
 }
+
+/* ---------- em breve ---------- */
+.soon-grid{display:grid;gap:28px}
+.soon h2{font-size:clamp(2rem,9vw,2.5rem)}
+.soon-list{display:grid;gap:8px}
+.soon-list article{background:var(--deep);border-radius:var(--r);padding:clamp(20px,2.4vw,32px);display:flex;flex-direction:column;gap:12px;min-height:200px}
+.soon-list h3{font-size:clamp(1.75rem,3vw,2.5rem);margin-top:auto}
+.soon-list p{color:var(--muted);max-width:32ch;line-height:1.4}
+.soon-list .stamp{align-self:flex-start}
+@media(min-width:900px){.soon-grid{grid-template-columns:4fr 8fr;gap:48px}.soon h2{font-size:clamp(2.5rem,4vw,4.5rem)}.soon-list{grid-template-columns:1fr 1fr}.soon-list article{min-height:280px}}
+@media(max-width:819px){.plan.p1{min-height:0}.plan.p1 .foot{padding-top:48px}}
+@media(min-width:900px){.stats-row .stat.c{min-height:52vh}.stats-row .stat.c .fig{font-size:clamp(5rem,9vw,10rem)}}
+.soon-list .stamp{display:inline-block;padding:4px 10px;border-radius:99px;font-size:12px;font-weight:700;background:rgba(251,191,36,.16);color:var(--warn)}
